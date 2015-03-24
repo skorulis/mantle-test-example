@@ -15,6 +15,7 @@
 		FA6C15A71AC175EB003E92C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6C15A61AC175EB003E92C3 /* Images.xcassets */; };
 		FA6C15AA1AC175EB003E92C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6C15A81AC175EB003E92C3 /* LaunchScreen.xib */; };
 		FA6C15B61AC175EB003E92C3 /* mantle_test_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6C15B51AC175EB003E92C3 /* mantle_test_exampleTests.m */; };
+		FA6C15C11AC177A1003E92C3 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6C15C01AC177A1003E92C3 /* TestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		FA6C15AF1AC175EB003E92C3 /* mantle-test-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mantle-test-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6C15B41AC175EB003E92C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA6C15B51AC175EB003E92C3 /* mantle_test_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mantle_test_exampleTests.m; sourceTree = "<group>"; };
+		FA6C15BF1AC177A1003E92C3 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		FA6C15C01AC177A1003E92C3 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				FA6C15A61AC175EB003E92C3 /* Images.xcassets */,
 				FA6C15A81AC175EB003E92C3 /* LaunchScreen.xib */,
 				FA6C15991AC175EB003E92C3 /* Supporting Files */,
+				FA6C15BF1AC177A1003E92C3 /* TestModel.h */,
+				FA6C15C01AC177A1003E92C3 /* TestModel.m */,
 			);
 			path = "mantle-test-example";
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 				FA6C15A21AC175EB003E92C3 /* ViewController.m in Sources */,
 				FA6C159F1AC175EB003E92C3 /* AppDelegate.m in Sources */,
 				FA6C159C1AC175EB003E92C3 /* main.m in Sources */,
+				FA6C15C11AC177A1003E92C3 /* TestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
